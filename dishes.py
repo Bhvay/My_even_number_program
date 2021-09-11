@@ -6,7 +6,7 @@ karnataka_dishes=["ragimuddha","ragragiidosa"]
 
 kerala_dishes=["putt","avial","aaapam"]
 
-bengali_dishes=["bengali sweets","rasagulla"]
+rajasthani_dishes=["kakara","rasagulla"]
 
 north_indian_dishes=["paratha","naan","roti","chapathi"]
 dish=input("enter any dish")
@@ -22,7 +22,7 @@ elif dish in kerala_dishes:
     print("it is a kerala dish")
 elif dish in north_indian_dishes:
     print("it is a north indian dish")
-elif dish in bengali_dishes:
-    print("it is a bengali dish")
+elif dish in rajasthani_dishes:
+    print(" it is a rajasthani dish")
 else:
     print("no dish in any culture")
